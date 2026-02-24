@@ -1,6 +1,35 @@
+
 body{
-    background-color:red;
+    background-image: linear-gradient(red 0%,orange 50%,yellow 100%);
+    margin-bottom:600px;
 }
 h1{
-    color:black;
+    color:red;
+    font-size:40px;
+}
+p{
+    font-size:35px;
+}
+.center{
+    text-align:center;
+    margin-top: 75px;
+    color:red;
+    font-family: "Trade Winds", system-ui;
+}
+a {
+    color:red;
+    font-size:35px;
+}
+a:hover{
+    background-color:gray;
+    padding:2px 10px 2px 10px;
+    color:white;
+}
+.border{
+    border:5px solid black;
+    margin:100px 50px 50px 50px;
+    padding:100px 100px 100px 100px;
+    margin-top:100px;
+    background-color:black;
+
 }
